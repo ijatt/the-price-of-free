@@ -3,4 +3,18 @@
 
 @theme {
   --color-cream: #fffaeb;
+  --color-bg-dark: #0A0220;        /* Deep space-like background */
+  --color-bg-purple: #1B0A40;      /* Dark purple backdrop */
+
+  --color-purple: #6A2DE0;         /* Neon purple */
+  --color-purple-light: #A46CFF;   /* Lighter glowing purple */
+
+  --color-pink: #FF4EC7;           /* Bright neon pink */
+  --color-pink-light: #FF8CEB;     /* Soft glowing pink */
+
+  --color-cyan: #37E7FF;           /* Neon cyan (phone glow) */
+  --color-cyan-light: #A4F2FF;     /* Light cyan highlight */
+
+  --color-white: #FFFFFF;          /* Text and stars */
+  --color-gray: #CFCFCF;  
 }
