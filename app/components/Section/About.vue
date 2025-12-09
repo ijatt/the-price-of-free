@@ -42,7 +42,7 @@ import cha from "@/assets/img/cha.jpg";
 import athul from "@/assets/img/Athul.jpg";
 import dhars from "@/assets/img/dhars.jpg";
 import fahmi from "@/assets/img/fahmi.jpeg";
-import alya from "@/assets/img/IMG_0456.jpg";
+import alya from "@/assets/img/alya.jpg";
 import jia from "@/assets/img/Jia.jpeg";
 import ilman from "@/assets/img/P1010165.jpg";
 import shaa from "@/assets/img/shaa.jpg";
