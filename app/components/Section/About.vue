@@ -11,7 +11,7 @@
       dots
       :autoplay="{ delay: 3000 }"
       :items="team"
-      :ui="{ item: 'basis-2/4 md:basis-1/4 lg:basis-1/4' }"
+      :ui="{ item: 'basis-3/4 md:basis-1/4 lg:basis-1/4' }"
       class="max-w-7xl mx-auto px-6"
     >
       <!-- <div
@@ -37,7 +37,17 @@
 </template>
 
 <script lang="ts" setup>
-import aiImg from "@/assets/img/ai.png";
+import ijat from "@/assets/img/ijat.jpg";
+import cha from "@/assets/img/cha.jpg";
+import athul from "@/assets/img/Athul.jpg";
+import dhars from "@/assets/img/dhars.jpg";
+import fahmi from "@/assets/img/fahmi.jpeg";
+import alya from "@/assets/img/IMG_0456.jpg";
+import jia from "@/assets/img/Jia.jpeg";
+import ilman from "@/assets/img/P1010165.jpg";
+import shaa from "@/assets/img/shaa.jpg";
+import wani from "@/assets/img/wani.jpg";
+import yazid from "@/assets/img/Yazid.jpg";
 
 interface TeamMember {
   name: string;
@@ -50,67 +60,67 @@ const team: TeamMember[] = [
   {
     name: "Siti Najihah",
     role: "Group Leader",
-    img: aiImg,
+    img: jia,
     gradient: "card-gradient-1",
   },
   {
     name: "Shahrizat",
     role: "Leader - Web Developer",
-    img: "/assets/img/ai.jpg",
+    img: ijat,
     gradient: "card-gradient-2",
   },
   {
     name: "Alya Natasha",
     role: "Web Developer",
-    img: "/assets/img/ai.jpg",
+    img: alya,
     gradient: "card-gradient-3",
   },
   {
     name: "Sharifah",
     role: "Web Developer",
-    img: "/assets/img/ai.jpg",
+    img: shaa,
     gradient: "card-gradient-4",
   },
   {
     name: "Athul",
     role: "UI/UX Designer",
-    img: "https://media.pitchfork.com/photos/67932557f4bbbe1b47e33b2e/2:1/w_1920,c_limit/Travis-Scott.jpg",
+    img: athul,
     gradient: "card-gradient-5",
   },
   {
     name: "Asha Alia",
     role: "Web Developers",
-    img: "https://media.pitchfork.com/photos/67932557f4bbbe1b47e33b2e/2:1/w_1920,c_limit/Travis-Scott.jpg",
+    img: cha,
     gradient: "card-gradient-1",
   },
   {
     name: "Ilman",
     role: "Leader - Game Developer",
-    img: "https://media.pitchfork.com/photos/67932557f4bbbe1b47e33b2e/2:1/w_1920,c_limit/Travis-Scott.jpg",
+    img: ilman,
     gradient: "card-gradient-2",
   },
   {
     name: "Syazwani",
     role: "Game Developer",
-    img: "https://media.pitchfork.com/photos/67932557f4bbbe1b47e33b2e/2:1/w_1920,c_limit/Travis-Scott.jpg",
+    img: wani,
     gradient: "card-gradient-3",
   },
   {
     name: "Yazid",
     role: "Game Developer",
-    img: "https://media.pitchfork.com/photos/67932557f4bbbe1b47e33b2e/2:1/w_1920,c_limit/Travis-Scott.jpg",
+    img: yazid,
     gradient: "card-gradient-4",
   },
   {
     name: "Dharsini",
     role: "Game Developer",
-    img: "https://media.pitchfork.com/photos/67932557f4bbbe1b47e33b2e/2:1/w_1920,c_limit/Travis-Scott.jpg",
+    img: dhars,
     gradient: "card-gradient-5",
   },
   {
     name: "Fahmi",
     role: "Game Developer",
-    img: "https://media.pitchfork.com/photos/67932557f4bbbe1b47e33b2e/2:1/w_1920,c_limit/Travis-Scott.jpg",
+    img: fahmi,
     gradient: "card-gradient-1",
   },
 ];
@@ -135,5 +145,13 @@ const team: TeamMember[] = [
 
 .card-gradient-5 {
   background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+}
+.team-img {
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
 }
 </style>

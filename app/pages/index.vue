@@ -105,17 +105,6 @@ html {
   box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.4);
 }
 
-
-
-.team-img {
-  border-radius: 20px;
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  margin-bottom: 14px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-}
-
 .team-info {
   text-align: center;
 }
