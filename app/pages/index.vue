@@ -18,12 +18,12 @@
 
 <script lang="ts" setup>
 useHead({
-  title: "Sulam - Understand AI Ethics & Data Privacy",
+  title: "The Price of Free: How Much is Your Data Worth to AI?",
   meta: [
     {
       name: "description",
       content:
-        "Explore the impact of AI and data privacy with Sulam. Learn about AI ethics, fairness, and how your digital choices shape the algorithms around you.",
+        "Explore the impact of AI and data privacy. Learn about AI ethics, fairness, and how your digital choices shape the algorithms around you.",
     },
     {
       name: "keywords",
