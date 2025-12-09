@@ -3,11 +3,5 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install && npx prisma generate",
   "framework": "nuxtjs",
-  "outputDirectory": ".output/public",
-  "functions": {
-    "api/**": {
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  }
+  "outputDirectory": ".output/public"
 }
