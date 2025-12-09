@@ -17,8 +17,10 @@
 </template>
 
 <script lang="ts" setup>
+import { link } from '#build/ui';
+
 useHead({
-  title: "The Price of Free: How Much is Your Data Worth to AI?",
+  title: "The Price of Free: How Much is Your Data Worth?",
   meta: [
     {
       name: "description",
@@ -31,6 +33,11 @@ useHead({
         "AI ethics, data privacy, artificial intelligence, fairness, bias, online safety, digital choices, AI impact, Sulam",
     },
   ],
+  link: [
+    {
+      rel: "icon", href: "/favicon.ico"
+    }
+  ]
 });
 </script>
 
